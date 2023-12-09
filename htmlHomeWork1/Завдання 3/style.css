@@ -1,0 +1,30 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    text-align: center;
+    font-size: 70px;
+}
+h2{
+    text-align: center;
+    font-size: 50px;
+}
+code {
+    padding: 2px 4px;
+    font-size: 90%;
+    color: #c7254e;
+    background-color: #f9f2f4;
+
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+  
+}
+p{
+    font-size: 40px;
+    
+}
+b{
+    color: #000;
+}
+h3{
+    color: aqua;
+}
