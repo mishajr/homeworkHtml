@@ -1,0 +1,31 @@
+.main{
+    width: 800px;
+    height: auto;
+    background-color: antiquewhite;
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 2px solid black;
+}
+.container{
+    width: 100%;
+    height: auto;
+    border-bottom: 4px solid black;
+    border-top: 4px ridge black;
+}
+.player{
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+.carts{
+    display: flex;
+    justify-content: space-evenly;
+}
+.red{
+    color: brown;
+}
+.carts h1{
+    text-align: center;
+    width: 70px;
+    height: 50px;
+    background-color: #e6dde3;
+}
