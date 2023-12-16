@@ -1,0 +1,25 @@
+div{
+    width: 400px;
+    height: 225px;
+    background-color: #ee99aa;
+    font-size: 18px;
+    color: aliceblue;
+}
+ol{
+    
+    
+    padding: 15px 0px 0px 15px;
+}
+ol li{
+    width: 360px;
+    padding: 4px;
+    margin-bottom:10px;
+    background-color: #bd6d7d;
+    list-style-position:inside;
+    
+}
+
+b{
+    background-color: #e65d78;
+    padding: 4px 10px 5px 10px;
+}

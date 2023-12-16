@@ -1,0 +1,42 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+ul{
+    padding: 0;
+    width: 500px;
+    height: 540px;
+    background-color: #acacac;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: black;
+    list-style-image: url(unchecked_16.png);
+    list-style-position:inside ;
+}
+
+ul li::after{
+    content: "✕";
+    margin-left: 15px;
+    color: red;
+
+}
+
+
+li{
+    
+    padding: 10px 10px 10px 40px;
+}
+.сheck{
+    
+    list-style-image: url(checked_16.png);
+
+}
+.greenBlue{
+    background-color: #a9d1d1ff;
+}
+.blue{
+    background-color: aqua;
+}
+b{
+    text-decoration:line-through;
+}
