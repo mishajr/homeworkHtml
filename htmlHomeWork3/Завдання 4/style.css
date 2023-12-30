@@ -1,0 +1,107 @@
+body{
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header{
+    margin: auto;
+    width: 70%;
+    height: 60px;
+    background-color: #4f1288;
+
+    margin-bottom: 50px;
+}
+main{
+    line-height: 30px;
+    margin: auto;
+    width: 70%;
+    margin-bottom: 50px;
+}
+
+footer{
+    
+    background-color: #2e2e80;
+    width: 100%;
+    height: 300px;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+.container div{
+    margin: 30px 9px;
+    display: flex;
+    
+
+}
+
+a{
+    font-size: 20px;
+    margin-bottom: 8px;
+    color: white;
+    text-decoration: none;
+    
+}
+a:hover{
+    text-decoration:underline;
+    font-size: 20px;
+    margin-bottom: 8px;
+    color: white;
+}
+.menu{
+    
+    flex-direction: column;
+}
+.blog{
+    flex-direction: column;
+}
+.contact{
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+
+}
+.facebook{
+    cursor: pointer;
+    width: 64px;
+    height: 64px;
+    background-image: url(./image/fb_gray.png);
+    background-position: center;
+}
+.inst{
+    cursor: pointer;
+    background-image: url(./image/insta_gray.png);
+    background-position: center;
+    width: 64px;
+    height: 64px;
+}
+.youTube{
+    cursor: pointer;
+    background-image: url(./image/youtube_gray.png);
+    background-position: center;
+    width: 64px;
+    height: 64px;
+}
+.facebook:hover{
+    width: 64px;
+    height: 64px;
+    background-image: url(./image/fb.png    );
+    background-position: center;
+}
+.inst:hover{
+    background-image: url(./image/insta.png);
+    background-position: center;
+    width: 64px;
+    height: 64px;
+}
+.youTube:hover{
+    background-image: url(./image/youtube.png);
+    background-position: center;
+    width: 64px;
+    height: 64px;
+}
+.finish {
+    margin: 40px 0px;
+    text-align: center;
+}
