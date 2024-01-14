@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  .gate {
+    position: relative;
+    width: 700px;
+    height: 200px;
+    perspective: 800px;
+    
+    cursor: pointer;
+  }
+  
+  .left-door,
+  .right-door {
+    border: 5px solid #08436b;
+    position: absolute;
+    width: 49%;
+    height: 100%;
+    background-color: #3498db;
+    transition: transform 2s;
+    z-index: 1;
+  }
+  
+  .left-door {
+    left: 0;
+    transform-origin: left;
+    transform: rotateY(0deg);
+  }
+  
+  .right-door {
+    right: 0;
+    transform-origin: right;
+    transform: rotateY(0deg);
+  }
+  
+  .gate-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    color: green;
+    text-align: center;
+    z-index: 0;
+  }
+  
+  .gate:hover .left-door {
+    transform: rotateY(90deg);
+  }
+  
+  .gate:hover .right-door {
+    transform: rotateY(-90deg);
+  }
+  
