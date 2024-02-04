@@ -1,0 +1,132 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+}
+
+@media screen and (max-width:1920px ) {
+
+
+    p {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .main {
+        display: grid;
+        grid-template-columns: 65% 35%;
+        width: 100%;
+        height: auto;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+
+    .left, .right {
+  
+        height: auto;
+        padding: 40px;
+    }
+    .content{
+        position: absolute;
+        top: 330px;
+        left: 0;
+        padding: 40px;
+        width: 60.5%;
+        height: auto;
+    }
+    .blockStyle {
+        background-color: #709eb0;
+        border-radius: 10px;
+        position: relative;
+    }
+    img {
+        width: 100%;
+        height: 100%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .blockStyle:last-child {
+        margin-top: 50px;
+    }
+
+    .h1A, .h1P {
+        color: #fff;
+        font-size: 18px;
+        margin: 0;
+        padding: 20px;
+        background-color: #014e6c;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+
+    }
+
+    h3 {
+        margin: 0;
+        padding: 24px;
+        font-weight: 100;
+        font-size: 13px;
+    }
+
+    .borders {
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+
+    .borders1 {
+        border-bottom: 1px solid black;
+    }
+}
+@media screen and (max-width: 800px) {
+    .main {
+        display: inline-block;
+    }
+    .right {
+        display: flex;
+    }
+    .blockStyle {
+        width: 50%;
+        height: auto;
+    }
+    .blockStyle:last-child {
+        margin-top: 0;
+        margin-left: 50px;
+
+    }
+    .left, .right {
+        width: 100%;
+        height: auto;
+        padding: 40px;
+    }
+    .content{
+        position: relative;
+        top: 0;
+        left: 0;
+        padding: 40px;
+        width: 100%;
+        height: auto;
+    }
+    img{
+        height: a;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .main {
+        display: inline-block;
+    }
+    .right {
+        display: block;
+    }
+    .blockStyle {
+        width: 100%;
+        height: auto;
+    }
+    .blockStyle:last-child {
+        margin-top: 50px;
+        margin-left: 0;
+    }
+}
